@@ -1,0 +1,64 @@
+/* Base Styles */
+/* apply a natural box layout model to all elements, but allowing components to change */
+
+html {
+  box-sizing: border-box;
+}
+
+* {
+  box-sizing: inherit;
+  &:before, &:after {
+    box-sizing: inherit;
+  }
+}
+
+.cf {
+  &:before {
+    content: " ";
+    /* 1 */
+    display: table;
+    /* 2 */
+  }
+  &:after {
+    content: " ";
+    /* 1 */
+    display: table;
+    /* 2 */
+    clear: both;
+  }
+}
+
+html {
+  background-color: $slate;
+  min-height: 100%;
+  height: auto;
+}
+
+body {
+  font-family: $font;
+  font-size: 1rem;
+  line-height: 160%;
+  *zoom: 1;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: $font;
+  font-weight: normal;
+  text-shadow: 1px 1px rgba (255, 255, 255, 1);
+}
+
+a {
+  color: $slate;
+  font-family: $font;
+}
+
+header {
+  margin-bottom: 20px;
+}
+
+h1 {
+  color: $slate;
+  font-size: 2rem;
+  line-height: 100%;
+  margin: 10px 0;
+}

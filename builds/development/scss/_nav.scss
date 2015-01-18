@@ -1,0 +1,33 @@
+nav {
+  width: 100%;
+  background: $yellow;
+  .table {
+    display: table;
+    /* Allow the centering to work */
+    margin: 0 auto;
+  }
+  li.branding a {
+    font-size: 1.5em;
+    text-align: left;
+    background: $teal;
+    color: $teal-lightest;
+  }
+  ul {
+    width: 100%;
+    margin: 0 auto;
+    li {
+      float: left;
+      color: $slate;
+      font-family: Bree Serif, serif;
+      a {
+        float: left;
+        text-decoration: none;
+        padding: 10px 15px;
+        &:hover {
+          background-color: $teal-light;
+          color: $yellow;
+        }
+      }
+    }
+  }
+}

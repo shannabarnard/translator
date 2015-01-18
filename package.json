@@ -1,0 +1,17 @@
+{
+  "name": "Translator",
+  "version": "0.0.1",
+  "description": "An application to allow a user to input text into a field and using typeahead, this text is changed into Pig Latin.",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/shannabarnard/translator.git"
+  },
+  "author": "Shanna Barnard",
+  "devDependencies": {
+    "bower": "^1.3.12",
+    "gulp": "^3.8.8",
+    "gulp-compass": "^2.0.3",
+    "gulp-util": "^2.2.20",
+    "gulp-webserver": "^0.8.1"
+  }
+}

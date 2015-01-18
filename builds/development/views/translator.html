@@ -1,0 +1,10 @@
+<section class="translator">
+  <h1>Enter English Text</h1>
+  <form>
+   <div class="form-group">
+    <input ng-model="englishText"></input>
+   </div>
+  </form>
+  <h1>Pig Latin</h1>
+  <div class="well">{{englishText | pigLatin}}</div>
+</section>

@@ -1,0 +1,18 @@
+/* Import fonts */
+@import url("http://fonts.googleapis.com/css?family=Bree+Serif|Merriweather:400,300,700,900|Droid+Sans:400,700");
+// Text
+// -------------------------
+$font: Bree Serif, serif !default;
+
+// Colours
+// -------------------------
+$yellow: #F5B349;
+$slate: #0E2430;
+$pink: #FC3A51;
+$cream: #E8D5B9;
+$teal: #1E9382;
+
+$teal-light: lighten($teal, 10%);
+$teal-lighter: lighten($teal, 25%);
+$teal-lightest: lighten($teal, 50%);
+
