@@ -1,4 +1,3 @@
-# Attendance Application
 This is an application that transforms English into Pig Latin.
 
 ## Instructions
