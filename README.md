@@ -1,5 +1,7 @@
 This is an application that transforms English into Pig Latin.
 
+Demo can be seen here: [http://shannabarnard.com/translator/#/](http://shannabarnard.com/translator/#/)
+
 ## Instructions
 1. Make sure you have [node.js](http://nodejs.org/) and [git](http://git-scm.com/) installed on your machine.
 2. Clone this into your local machine `> git clone https://github.com/shannabarnard/translator.git`
